@@ -1,0 +1,218 @@
+{
+  "brand": {
+    "line1": "Kakatiya",
+    "line2": "Printing Inks",
+    "name": "Kakatiya Printing Inks"
+  },
+  "nav": {
+    "products": "Products",
+    "applications": "Applications",
+    "whyUs": "Why Us",
+    "reach": "Reach",
+    "contact": "Contact",
+    "getQuote": "Get a quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skip": "Skip to content",
+    "primary": "Primary navigation"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "te": "తెలుగు",
+    "hi": "हिंदी"
+  },
+  "hero": {
+    "eyebrow": "Hyderabad · India-wide supply",
+    "headlinePre": "Water based ",
+    "headlineHighlight": "colours",
+    "headlineMid": "that print ",
+    "headlineEmphasis": "sharp, safe & vivid.",
+    "body": "Kakatiya Printing Inks is a Hyderabad-based distributor of premium water-based flexographic inks — trusted by corrugated box makers and packaging converters across the country.",
+    "ctaSample": "Request a colour sample",
+    "ctaPalette": "Explore the palette",
+    "imageAlt": "Rainbow splash of water based printing inks",
+    "tagTop": "Custom shade",
+    "tagBottom": "Matched in 24 hrs",
+    "stats": {
+      "yearsValue": "25+",
+      "yearsLabel": "Years in trade",
+      "convertersValue": "500+",
+      "convertersLabel": "Converters served",
+      "statesValue": "8",
+      "statesLabel": "States supplied"
+    }
+  },
+  "shades": {
+    "red": "Signal Red",
+    "orange": "Solar Orange",
+    "yellow": "Lemon Yellow",
+    "green": "Forest Green",
+    "cyan": "Cyan Sky",
+    "blue": "Cobalt Blue",
+    "violet": "Deep Violet",
+    "magenta": "Magenta Rose",
+    "black": "Jet Black"
+  },
+  "products": {
+    "eyebrow": "Our range",
+    "titlePre": "A full spectrum of ",
+    "titleHighlight": "water based inks",
+    "body": "From process colours to custom-matched brand shades — all low-odour, fast-drying and safe for food-grade packaging.",
+    "cardLabel": "Flexo · Water base",
+    "downloadPdf": "Download shade card (English PDF)"
+  },
+  "shadeExplorer": {
+    "viewDetails": "View details for {{shade}}",
+    "close": "Close",
+    "tbd": "To be confirmed",
+    "hsn": "HSN Code",
+    "requestCta": "Request this shade on WhatsApp",
+    "whatsappSeed": "Hi, I'd like details and a quote for {{shade}}.",
+    "spec": {
+      "finish": "Finish",
+      "opacity": "Opacity",
+      "substrate": "Substrate",
+      "dryingNote": "Drying",
+      "foodSafeNote": "Food-safe",
+      "pantoneRef": "Pantone ref"
+    }
+  },
+  "corrugated": {
+    "eyebrow": "Built for",
+    "titleLine1": "Corrugated boxes,",
+    "titleLine2": "first and foremost.",
+    "body": "The majority of our supply powers corrugated packaging lines — delivering fast drying, high coverage and consistent shade batch after batch, on kraft and coated boards alike.",
+    "imageAlt": "Printed corrugated boxes stacked in a warehouse",
+    "items": {
+      "cartonsTitle": "Corrugated cartons",
+      "cartonsBody": "Kraft, white-top and coated boards.",
+      "flexoTitle": "Flexo printing",
+      "flexoBody": "Sharp reproduction on high-speed presses.",
+      "bagsTitle": "Paper bags & liners",
+      "bagsBody": "Low-migration, food-safe formulations.",
+      "shadeTitle": "Custom shade matching",
+      "shadeBody": "Pantone and in-house shade cards."
+    }
+  },
+  "why": {
+    "eyebrow": "Why Kakatiya",
+    "titlePre": "Distributors who know ",
+    "titleHighlight": "printing",
+    "subtitle": "Not a warehouse. A partner who understands your press, your board and the shade your customer signed off on.",
+    "imageAlt": "Rainbow ink drums stocked in warehouse",
+    "cards": {
+      "ecoTitle": "Water based, eco-safe",
+      "ecoBody": "Low VOC, low odour formulations that meet modern packaging norms.",
+      "batchTitle": "Batch consistency",
+      "batchBody": "Tight QC on viscosity, pH and shade — every drum, every time.",
+      "dispatchTitle": "Reliable dispatch",
+      "dispatchBody": "Regular movement across Telangana, AP, Karnataka, Tamil Nadu and more."
+    }
+  },
+  "distribution": {
+    "eyebrow": "Distribution",
+    "titlePre": "From Hyderabad, ",
+    "titleHighlight": "across India.",
+    "body": "We stock deep and dispatch fast. Whether you need a single drum or truckload volumes, our logistics keeps your press running.",
+    "states": {
+      "telangana": "Telangana",
+      "andhra": "Andhra Pradesh",
+      "karnataka": "Karnataka",
+      "tamilnadu": "Tamil Nadu",
+      "maharashtra": "Maharashtra",
+      "odisha": "Odisha",
+      "kerala": "Kerala",
+      "chhattisgarh": "Chhattisgarh",
+      "panIndia": "PAN India"
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "titlePre": "Ready to see the ",
+    "titleHighlight": "shade card?",
+    "body": "Tell us the board, the press and the volume — we'll send samples and a quotation, quickly.",
+    "contactPersonLabel": "Contact person",
+    "callLabel": "Phone",
+    "emailLabel": "Email",
+    "visitLabel": "Address",
+    "gstLabel": "GST No",
+    "whatsapp": "Chat on WhatsApp",
+    "form": {
+      "heading": "How can we reach you?",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "companyLabel": "Company",
+      "companyPlaceholder": "Company name",
+      "contactLabel": "Phone / Email",
+      "contactPlaceholder": "How can we reach you?",
+      "boardLabel": "Board type",
+      "shadesLabel": "Shade(s) wanted",
+      "pressLabel": "Press type",
+      "pressOtherPlaceholder": "Which press?",
+      "volumeLabel": "Volume",
+      "volumePlaceholder": "e.g. 5 (drums / kg)",
+      "notesLabel": "Notes (optional)",
+      "notesPlaceholder": "Anything else we should know?",
+      "selectPlaceholder": "Select…",
+      "submit": "Send enquiry",
+      "sendWhatsApp": "Send via WhatsApp",
+      "demoConfirm": "Thanks! This demo isn't connected to a server yet — please use \"Send via WhatsApp\" so your enquiry reaches us.",
+      "board": {
+        "kraft": "Kraft",
+        "whiteTop": "White-top",
+        "coated": "Coated",
+        "other": "Other"
+      },
+      "shades": {
+        "custom": "Custom / Pantone match"
+      },
+      "press": {
+        "flexo": "Flexo",
+        "other": "Other"
+      },
+      "whatsapp": {
+        "none": "—",
+        "template": "New enquiry — Name: {{name}} | Company: {{company}} | Contact: {{contact}} | Board: {{board}} | Shades: {{shades}} | Press: {{press}} | Volume: {{volume}} | Notes: {{notes}}"
+      }
+    }
+  },
+  "chat": {
+    "launcherOpen": "Open chat",
+    "launcherClose": "Close chat",
+    "dialogLabel": "Chat with Kakatiya Printing Inks",
+    "status": "Typically replies on WhatsApp within minutes",
+    "typing": "Kakatiya is typing",
+    "greeting": "Hi! 👋 Welcome to Kakatiya Printing Inks. How can we help you today?",
+    "askElse": "Ask something else",
+    "askElsePrompt": "Sure — what else can we help you with?",
+    "handoffNote": "Opening WhatsApp so you can chat with the owner…",
+    "menu": {
+      "shades": "Available shades & custom colour matching",
+      "moq": "Minimum order quantity & pack/drum sizes",
+      "foodSafe": "Food-safe / low-migration inks",
+      "drying": "Drying time & press compatibility",
+      "delivery": "Delivery areas & lead time",
+      "pricing": "Pricing & get a quote",
+      "sample": "Request a shade card / sample",
+      "human": "Chat with owner on WhatsApp"
+    },
+    "answers": {
+      "shades": "We stock 8 core water-based flexo shades — Signal Red, Solar Orange, Lemon Yellow, Forest Green, Cyan Sky, Cobalt Blue, Deep Violet and Magenta Rose. We also match custom brand colours to Pantone and our in-house shade cards.",
+      "moq": "Minimum order quantity depends on the shade and the pack or drum size. Tell us the colour, board and volume you need and we'll confirm what's available for you.",
+      "foodSafe": "Our water-based inks are low-VOC, low-odour and formulated to be low-migration for food-grade packaging — suitable for paper bags, liners and cartons.",
+      "drying": "The inks are built for high-speed flexo presses on corrugated, kraft and coated boards — fast drying, high coverage and a consistent shade batch after batch.",
+      "delivery": "We dispatch from Hyderabad across Telangana, Andhra Pradesh, Karnataka, Tamil Nadu, Maharashtra, Odisha, Kerala, Chhattisgarh and PAN India. Share your location and volume and we'll confirm the lead time.",
+      "pricing": "Pricing depends on the shade, quantity and pack size. Send us your requirement and we'll share a quotation quickly.",
+      "sample": "We'd be glad to send a shade card or sample. Share your name, company and the shades you're interested in, and we'll arrange it."
+    },
+    "whatsapp": {
+      "generic": "Hi Kakatiya Printing Inks, I'd like a colour sample and quotation.",
+      "seed": "Hi Kakatiya Printing Inks, I have a question about {{topic}}."
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} Kakatiya Printing Inks. All rights reserved.",
+    "tagline": "Water based colours · Hyderabad · India"
+  }
+}
