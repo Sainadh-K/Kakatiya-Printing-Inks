@@ -1,19 +1,7 @@
 import { useTranslation } from "react-i18next";
-import { MapPin } from "lucide-react";
+import { Globe } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 import { Reveal } from "./Reveal";
-
-const STATE_KEYS = [
-  "telangana",
-  "andhra",
-  "karnataka",
-  "tamilnadu",
-  "maharashtra",
-  "odisha",
-  "kerala",
-  "chhattisgarh",
-  "panIndia",
-] as const;
 
 export function Distribution() {
   const { t } = useTranslation();
@@ -29,16 +17,22 @@ export function Distribution() {
         />
       </Reveal>
 
-      <ul className="mt-10 grid list-none grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-3">
-        {STATE_KEYS.map((key, i) => (
-          <Reveal as="li" key={key} delay={(i % 3) * 0.05}>
-            <div className="flex items-center gap-3 rounded-xl border border-border/60 bg-card px-4 py-3 text-sm font-medium transition hover:-translate-y-0.5 hover:shadow-md">
-              <MapPin className="h-4 w-4 shrink-0 text-muted-foreground" aria-hidden="true" />
-              {t(`distribution.states.${key}`)}
+      {/* Single PAN-India statement (individual state list removed) */}
+      <Reveal delay={0.1}>
+        <div className="mt-10 flex flex-col items-center gap-5 rounded-3xl border border-border/60 bg-card px-8 py-12 text-center sm:flex-row sm:justify-center sm:gap-6 sm:text-left">
+          <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl rainbow-bar text-white shadow-md">
+            <Globe className="h-8 w-8 drop-shadow" aria-hidden="true" />
+          </span>
+          <div>
+            <div className="font-display text-3xl font-bold md:text-4xl">
+              {t("distribution.panIndia")}
             </div>
-          </Reveal>
-        ))}
-      </ul>
+            <p className="mt-1 max-w-md text-muted-foreground">
+              {t("distribution.panIndiaNote")}
+            </p>
+          </div>
+        </div>
+      </Reveal>
     </section>
   );
 }

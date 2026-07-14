@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { motion, useReducedMotion } from "framer-motion";
-import { ArrowRight, Palette, Droplet } from "lucide-react";
+import { ArrowRight, Palette } from "lucide-react";
+import { LogoMark } from "./BrandLogo";
 
 // Served from /public. Referenced by URL (not imported) so Vite copies it as-is.
 const heroImg = "/assets/hero-inks.jpg";
@@ -111,11 +112,9 @@ export function Hero() {
             />
           </div>
 
-          {/* Floating "custom shade" card */}
+          {/* Floating "custom shade" card — uses the logo droplet motif */}
           <div className="absolute -bottom-6 -left-6 hidden items-center gap-3 rounded-2xl border border-border/60 bg-card p-4 shadow-xl md:flex animate-float-slow">
-            <span className="flex h-10 w-10 items-center justify-center rounded-lg rainbow-bar">
-              <Droplet className="h-5 w-5 text-white drop-shadow" aria-hidden="true" />
-            </span>
+            <LogoMark className="h-11 w-11" />
             <span>
               <span className="block text-xs text-muted-foreground">{t("hero.tagTop")}</span>
               <span className="block font-semibold">{t("hero.tagBottom")}</span>

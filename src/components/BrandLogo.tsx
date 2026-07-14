@@ -120,11 +120,11 @@ export function BrandLogo({ markClassName }: Readonly<{ markClassName?: string }
     <span className="flex items-center gap-3">
       <LogoMark className={markClassName ?? "h-12 w-12 md:h-14 md:w-14"} />
       <span className="flex flex-col leading-none">
-        {/* pb-[0.22em] extends the gradient (background-clip: text) box below the
-            baseline so the "y" descender is painted, not clipped. */}
+        {/* Wordmark in solid jet black (was multi-colour). pb keeps the vertical
+            rhythm identical so the sub-line alignment below is undisturbed. */}
         <span
           ref={kRef}
-          className="brand-rainbow font-brand text-2xl font-extrabold leading-[1.1] tracking-tight md:text-[27px] pb-[0.22em]"
+          className="font-brand text-2xl font-extrabold leading-[1.1] tracking-tight text-black md:text-[27px] pb-[0.22em]"
         >
           {t("brand.line1")}
         </span>

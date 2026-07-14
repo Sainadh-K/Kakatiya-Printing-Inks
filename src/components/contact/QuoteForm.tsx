@@ -254,7 +254,7 @@ export function QuoteForm() {
         <div className="flex flex-col gap-3 sm:flex-row">
           <button
             type="submit"
-            className="group relative w-full overflow-hidden rounded-xl rainbow-bar px-6 py-4 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5"
+            className="w-full min-h-[44px] rounded-xl bg-foreground px-6 py-4 text-sm font-semibold text-background shadow-sm transition hover:-translate-y-0.5 hover:opacity-90"
           >
             {t("contact.form.submit")}
           </button>

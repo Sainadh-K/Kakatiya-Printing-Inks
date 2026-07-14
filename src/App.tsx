@@ -5,6 +5,7 @@ import { Marquee } from "./components/Marquee";
 import { Products } from "./components/Products";
 import { Corrugated } from "./components/Corrugated";
 import { WhyUs } from "./components/WhyUs";
+import { OurClients } from "./components/OurClients";
 import { Distribution } from "./components/Distribution";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
@@ -32,6 +33,7 @@ export default function App() {
         <Products />
         <Corrugated />
         <WhyUs />
+        <OurClients />
         <Distribution />
         <Contact />
       </main>

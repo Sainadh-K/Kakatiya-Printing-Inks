@@ -58,6 +58,11 @@ const PLACEHOLDER_SPEC: ShadeSpec = {
   pantoneRef: "To be confirmed", // TODO: confirm with client — do NOT invent Pantone codes
 };
 
+// VIBGYOR rainbow order, with Jet Black last. Every consumer (marquee, product
+// cards, enquiry-form shade chips, PDF) reads from this one array, so reordering
+// here cascades everywhere.
+// TODO: confirm with client whether Jet Black should sit FIRST or LAST — for now
+// it is LAST after the rainbow. To put it first, move the "black" row to the top.
 export const shades: Shade[] = [
   { id: "red", name: "Signal Red", cls: "bg-ink-red", hex: "#f51d31", spec: { ...PLACEHOLDER_SPEC } },
   { id: "orange", name: "Solar Orange", cls: "bg-ink-orange", hex: "#fb7c00", spec: { ...PLACEHOLDER_SPEC } },

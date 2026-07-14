@@ -39,8 +39,8 @@
       "yearsLabel": "Years in trade",
       "convertersValue": "500+",
       "convertersLabel": "Converters served",
-      "statesValue": "8",
-      "statesLabel": "States supplied"
+      "statesValue": "PAN",
+      "statesLabel": "India supply"
     }
   },
   "shades": {
@@ -84,6 +84,7 @@
     "titleLine2": "first and foremost.",
     "body": "The majority of our supply powers corrugated packaging lines — delivering fast drying, high coverage and consistent shade batch after batch, on kraft and coated boards alike.",
     "imageAlt": "Printed corrugated boxes stacked in a warehouse",
+    "placeholderNote": "Placeholder — photo to follow",
     "items": {
       "cartonsTitle": "Corrugated cartons",
       "cartonsBody": "Kraft, white-top and coated boards.",
@@ -107,25 +108,23 @@
       "batchTitle": "Batch consistency",
       "batchBody": "Tight QC on viscosity, pH and shade — every drum, every time.",
       "dispatchTitle": "Reliable dispatch",
-      "dispatchBody": "Regular movement across Telangana, AP, Karnataka, Tamil Nadu and more."
+      "dispatchBody": "Regular dispatch across India, from our Hyderabad base."
     }
+  },
+  "ourClients": {
+    "eyebrow": "Our clients",
+    "titlePre": "Trusted by ",
+    "titleHighlight": "converters & brands",
+    "body": "Packaging companies and converters who rely on our inks.",
+    "placeholder": "Logo to follow"
   },
   "distribution": {
     "eyebrow": "Distribution",
     "titlePre": "From Hyderabad, ",
     "titleHighlight": "across India.",
     "body": "We stock deep and dispatch fast. Whether you need a single drum or truckload volumes, our logistics keeps your press running.",
-    "states": {
-      "telangana": "Telangana",
-      "andhra": "Andhra Pradesh",
-      "karnataka": "Karnataka",
-      "tamilnadu": "Tamil Nadu",
-      "maharashtra": "Maharashtra",
-      "odisha": "Odisha",
-      "kerala": "Kerala",
-      "chhattisgarh": "Chhattisgarh",
-      "panIndia": "PAN India"
-    }
+    "panIndia": "PAN India",
+    "panIndiaNote": "Supplied nationwide from our Hyderabad base."
   },
   "contact": {
     "eyebrow": "Contact",
@@ -202,7 +201,7 @@
       "moq": "Minimum order quantity depends on the shade and the pack or drum size. Tell us the colour, board and volume you need and we'll confirm what's available for you.",
       "foodSafe": "Our water-based inks are low-VOC, low-odour and formulated to be low-migration for food-grade packaging — suitable for paper bags, liners and cartons.",
       "drying": "The inks are built for high-speed flexo presses on corrugated, kraft and coated boards — fast drying, high coverage and a consistent shade batch after batch.",
-      "delivery": "We dispatch from Hyderabad across Telangana, Andhra Pradesh, Karnataka, Tamil Nadu, Maharashtra, Odisha, Kerala, Chhattisgarh and PAN India. Share your location and volume and we'll confirm the lead time.",
+      "delivery": "We dispatch PAN India from our Hyderabad base. Share your location and volume and we'll confirm the lead time.",
       "pricing": "Pricing depends on the shade, quantity and pack size. Send us your requirement and we'll share a quotation quickly.",
       "sample": "We'd be glad to send a shade card or sample. Share your name, company and the shades you're interested in, and we'll arrange it."
     },

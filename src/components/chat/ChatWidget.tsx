@@ -41,13 +41,13 @@ export function ChatWidget() {
         aria-label={open ? t("chat.launcherClose") : t("chat.launcherOpen")}
         aria-expanded={open}
         aria-controls="chat-panel"
-        className="fixed bottom-5 right-5 z-40 flex h-14 w-14 items-center justify-center rounded-full rainbow-bar text-white shadow-xl transition hover:-translate-y-0.5 hover:shadow-2xl focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+        className="fixed bottom-5 right-5 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-ink-blue text-white shadow-lg ring-1 ring-black/10 transition hover:-translate-y-0.5 hover:bg-ink-blue/90 hover:shadow-xl focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
         style={{ marginBottom: "env(safe-area-inset-bottom, 0px)" }}
       >
         {open ? (
-          <X className="h-6 w-6 drop-shadow" aria-hidden="true" />
+          <X className="h-6 w-6" aria-hidden="true" />
         ) : (
-          <MessageCircle className="h-6 w-6 drop-shadow" aria-hidden="true" />
+          <MessageCircle className="h-7 w-7" aria-hidden="true" />
         )}
       </button>
 

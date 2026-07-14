@@ -13,10 +13,10 @@ export const WHATSAPP_NUMBER = "917306999345";
 
 export const siteConfig = {
   businessName: "Kakatiya Printing Inks",
-  contactPerson: "Kopuri Venkateswara Rao",
+  contactPerson: "Venkateswarlu Kopuri",
 
-  phoneDisplay: "+91 7306999345",
-  phoneHref: "917306999345", // used as tel:+<phoneHref>
+  phoneDisplay: "+91-7306999345",
+  phoneHref: "917306999345", // used as tel:+<phoneHref> (digits only, unchanged)
 
   email: "kvenkateswararao657@gmail.com",
 
