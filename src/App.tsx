@@ -12,6 +12,14 @@ import { Footer } from "./components/Footer";
 import { ChatWidget } from "./components/chat/ChatWidget";
 import { StructuredData } from "./components/StructuredData";
 
+/**
+ * "Our Clients" is built and ready but hidden at the client's request until he
+ * supplies the client names and logo files.
+ * To switch it back on: set this to true (the section renders between "Why
+ * Kakatiya" and "Distribution"). Content lives in src/components/OurClients.tsx.
+ */
+const SHOW_OUR_CLIENTS = false;
+
 export default function App() {
   const { t } = useTranslation();
 
@@ -33,7 +41,7 @@ export default function App() {
         <Products />
         <Corrugated />
         <WhyUs />
-        <OurClients />
+        {SHOW_OUR_CLIENTS && <OurClients />}
         <Distribution />
         <Contact />
       </main>
