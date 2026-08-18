@@ -2,21 +2,20 @@ import { useId, useLayoutEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 /**
- * Kakatiya logo mark — Option A: an ink droplet whose lower half resolves into three
- * overlapping CMYK dots (colour separation → "printing"), on a rainbow tile that keeps
- * the site's "full spectrum of colour" spirit. Fully self-contained inline SVG.
+ * Kakatiya logo mark — one continuous rounded rainbow tile with a droplet shape marked
+ * out purely by a bold white outline. The droplet has NO fill of its own: the tile's
+ * rainbow gradient shows straight through it, so the droplet reads as an outlined region
+ * within the same square, not a separate coloured shape. Self-contained inline SVG.
  *
- * Colours reuse the theme's own ink tokens (see src/index.css --ink-*): the tile is the
- * 8-shade rainbow; the dots use theme cyan / magenta / yellow, multiplied so their
- * overlaps yield the CMY secondaries and a near-black centre (K). No new palette.
+ * The tile uses the theme's 8-shade rainbow (see src/index.css --ink-*). No new palette.
  */
 export function LogoMark({ className }: Readonly<{ className?: string }>) {
   // Unique per instance so the mark can appear more than once (nav + footer) without id clashes.
   const uid = useId().replace(/:/g, "");
   const grad = `kk-grad-${uid}`;
-  const clip = `kk-clip-${uid}`;
+  // Droplet nudged down ~3 units so it sits a little lower / more centred in the tile.
   const drop =
-    "M24 6 C 30 15.5 34.5 20 34.5 26.5 A 10.5 10.5 0 1 1 13.5 26.5 C 13.5 20 18 15.5 24 6 Z";
+    "M24 9 C 30 18.5 34.5 23 34.5 29.5 A 10.5 10.5 0 1 1 13.5 29.5 C 13.5 23 18 18.5 24 9 Z";
 
   return (
     <svg
@@ -37,23 +36,19 @@ export function LogoMark({ className }: Readonly<{ className?: string }>) {
           <stop offset="0.9" stopColor="#7d24d3" />
           <stop offset="1" stopColor="#dd00b1" />
         </linearGradient>
-        <clipPath id={clip}>
-          <path d={drop} />
-        </clipPath>
       </defs>
 
-      {/* Rainbow tile */}
+      {/* One continuous rainbow tile */}
       <rect x="0" y="0" width="48" height="48" rx="12" fill={`url(#${grad})`} />
 
-      {/* Ink droplet */}
-      <path d={drop} fill="#ffffff" fillOpacity="0.96" />
-
-      {/* CMYK separation dots in the lower half — multiplied so overlaps darken toward K */}
-      <g clipPath={`url(#${clip})`} style={{ mixBlendMode: "multiply" }}>
-        <circle cx="20.6" cy="25.8" r="4.9" fill="#00bbd5" />
-        <circle cx="27.4" cy="25.8" r="4.9" fill="#dd00b1" />
-        <circle cx="24" cy="31" r="4.9" fill="#f1cb1c" />
-      </g>
+      {/* Droplet: no fill (rainbow shows through), just a thick white outline */}
+      <path
+        d={drop}
+        fill="none"
+        stroke="#ffffff"
+        strokeWidth="3.2"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }

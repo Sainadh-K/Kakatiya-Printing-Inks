@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Package, Printer, ShoppingBag, Palette, type LucideIcon } from "lucide-react";
 import { Reveal } from "./Reveal";
-import { CorrugatedPlaceholder } from "./CorrugatedPlaceholder";
+
+const corrugatedImg = "/assets/corrugated-boxes.jpg";
 
 const ITEMS: { icon: LucideIcon; titleKey: string; bodyKey: string }[] = [
   { icon: Package, titleKey: "corrugated.items.cartonsTitle", bodyKey: "corrugated.items.cartonsBody" },
@@ -24,13 +25,17 @@ export function Corrugated() {
         aria-hidden="true"
       />
       <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 lg:grid-cols-2 lg:items-center">
-        {/* Image — placeholder illustration until the client supplies a real photo */}
+        {/* Image */}
         <Reveal className="relative order-2 lg:order-1">
-          <div className="relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl">
-            <CorrugatedPlaceholder className="h-[380px] w-full md:h-[460px]" />
-            <span className="absolute bottom-3 right-3 rounded-full bg-black/40 px-3 py-1 text-[11px] font-medium text-white/80 backdrop-blur">
-              {t("corrugated.placeholderNote")}
-            </span>
+          <div className="overflow-hidden rounded-3xl border border-white/10 shadow-2xl">
+            <img
+              src={corrugatedImg}
+              alt={t("corrugated.imageAlt")}
+              width={1200}
+              height={900}
+              className="h-[380px] w-full object-cover md:h-[460px]"
+              loading="lazy"
+            />
           </div>
         </Reveal>
 
